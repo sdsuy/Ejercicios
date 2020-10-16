@@ -1,0 +1,7 @@
+alfa
+beta
+gama
+epsilon
+pi
+stigma
+omega
