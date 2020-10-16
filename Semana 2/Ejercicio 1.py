@@ -10,5 +10,6 @@ lista = input('Ingrese ' + n + ' enteros: ')
 lista = lista.split()
 if len(lista) != int(n):
     raise Exception('no ingresó ' + n + ' numero/s, intentalo nuevamente')
+lista = list(map(int, lista))
 print('El mayor entero ingresado es: ' + str(max(lista)))
 print('El menor entero ingresado es: ' + str(min(lista)))
